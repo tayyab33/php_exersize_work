@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+include('bootstrap.php');
 
 unset($_SESSION['authenticated_user']);
 

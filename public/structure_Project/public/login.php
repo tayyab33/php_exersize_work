@@ -1,5 +1,5 @@
 <?php
-session_start();
+include('bootstrap.php');
 
 $users = [
     'tayyab' => '$2y$10$GQeHcKL/1UUHtLw.2R5a/ubUduTnrHRfOUJrj6X0.u8MN4MEyhali'

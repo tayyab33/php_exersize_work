@@ -1,5 +1,5 @@
 <?php
-session_start();
+include('bootstrap.php');
 
 if (!isset($_SESSION['authenticated_user'])) {
     header('Location: login.php');
