@@ -68,5 +68,11 @@
         "is_accessible": true,
         "id": 10,
         "is_deleted": true
+    },
+    {
+        "destination": "pakistani",
+        "number_of_tickets_available": 1,
+        "is_accessible": true,
+        "id": 11
     }
 ]

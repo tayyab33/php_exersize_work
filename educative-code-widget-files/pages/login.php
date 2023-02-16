@@ -2,8 +2,8 @@
 include(__DIR__ . '/../bootstrap.php');
 
 $users = [
-    'matthias' => '$2y$10$.W5hBgYf/2bas.5bFQHpL.FTlS8xzUgixvyeEiPk0VeKuMxR5A1CK'
-];
+        'tayyab' => '$2y$10$1aCoD0qyd0zAoYpHehwL8u08vkuHbdOVQQyVt.GD/mMeampmlW4LK',
+   	];
 
 if (isset($_POST['username'], $_POST['password'])) {
     // The user has submitted the login form
@@ -21,7 +21,7 @@ if (isset($_POST['username'], $_POST['password'])) {
             $_SESSION['authenticated_user'] = $_POST['username'];
 
             // Redirect to /secret.php
-            header('Location: secret');
+            header('Location: secret.php');
             exit;
         }
     }
